@@ -4,7 +4,7 @@ import {Amplify,API,withSSRContext} from "aws-amplify"
 import {DeleteTodoInput, GetTodoQuery, ListTodosQuery, Todo} from "../../../../src/API";
 import {GRAPHQL_AUTH_MODE} from "@aws-amplify/api"
 import {useRouter} from "next/router";
-import styles from "../../../styles/Home.module.css"
+import styles from "../../../src/styles/Home.module.css"
 import Head from "next/head";
 import {deleteTodo} from "../../../../src/graphql/mutations";
 import awsExports from "../../../../src/aws-exports";

@@ -1,6 +1,6 @@
 import {AmplifyAuthenticator} from "@aws-amplify/ui-react"
 import Amplify, { API, Auth, withSSRContext} from "aws-amplify"
-import styles from '../../styles/Home.module.css'
+import styles from "../../src/styles/Home.module.css"
 import {GetServerSideProps} from "next";
 import {listTodos} from "../../../src/graphql/queries";
 import {CreateTodoInput,CreateTodoMutation, ListTodosQuery, Todo} from "../../../src/API";
